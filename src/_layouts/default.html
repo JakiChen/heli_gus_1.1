@@ -1,0 +1,36 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include main/head.html %}
+	</head>
+
+	<body>
+		{% include externals/scripting.html %}
+
+		<div style="display: none;" id="content">
+			<div data-name="general-data">
+				{% include main/menu.html %}
+				{% include main/page_footer.html %}
+			</div>
+
+			<div data-name="pages">
+
+				{% include pages/home.html %}
+
+				{% include pages/studio.html %}
+
+				{% include pages/ethos.html %}
+
+				{% include pages/projects.html %}
+			</div>
+		</div>
+        
+        {% include externals/google_analytics.html %}
+        {% include externals/initialize_site.html %}
+        
+	</body>
+</html>

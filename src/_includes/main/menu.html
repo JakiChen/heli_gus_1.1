@@ -1,0 +1,38 @@
+<div data-name="menu">
+
+    <div data-name="contact">
+
+        <div data-name="headline">Contact</div>
+
+        <div data-name="columns">
+            <div data-name="column">
+                {{ site.author.name }}<br>
+                {{ site.author.addr-beijing }}
+                <br>
+                {{ site.author.addr-xiamen }}
+            </div>
+            <div data-name="column">
+                {{ site.author.tel }}<br>
+                <a href="mailto:{{ site.author.info-mail }}" target="_top">{{ site.author.info-mail }}</a>
+
+            </div>
+            <div data-name="column">
+                For job and Intern<br>
+                inquiries please write<br>
+                <a href="mailto:{{ site.author.jobs-mail }}" target="_top">{{ site.author.jobs-mail }}</a><br><br>
+            </div>
+        </div>
+    </div>
+
+    <div data-name="footer">
+        <div data-name="copyright" >Copyright {{ 'now' | date: "%Y" }} © {{ site.blog.name }}</div>
+        <div data-name="cvr" >{{ site.author.cvr }}</div>
+    </div>
+
+    <div data-name="social">
+        <div data-name="behance" data-link="https://www.behance.net/{{ site.author.behance }}/">Behance</div>
+        <div data-name="linkedin" data-link="https://www.linkedin.com/company/{{ site.author.linkedin }}">LinkedIn</div>
+        <div data-name="instagram" data-link="https://www.instagram.com/{{ site.author.instagram }}/">Instagram</div>
+        <div data-name="github" data-link="https://github.com/{{ site.author.github }}/">Github</div>
+    </div>
+</div>

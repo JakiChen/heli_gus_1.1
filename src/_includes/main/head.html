@@ -1,0 +1,35 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- IE: Force to always use the latest version - if chrome frame is installed use this instead -->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="viewport" content="initial-scale=.8">
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta name="referrer" content="always" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<title>{{ site.blog.title }}</title>
+
+<!-- Meta description and keywords -->
+<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.blog.description }}{% endif %}">
+<meta name="keywords" content="{{ site.blog.keywords  }}" />
+
+<!-- for Facebook -->
+<meta property="og:title" content="{{ site.blog.title }}">
+<meta property="og:site_name" content="{{ site.blog.name }}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="{{site.url}}/images/social.png">
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.blog.description }}{% endif %}">
+
+<!-- for Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="{{ site.blog.twitter }}">
+
+<meta name="twitter:title" content="{{ site.blog.title }}" />
+<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.blog.description }}{% endif %}" />
+<meta name="twitter:image" content="{{site.url}}/images/social.png" />
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--<link rel="stylesheet" type="text/css" href="assets/css/lists.css">-->

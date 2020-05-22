@@ -1,0 +1,22 @@
+# Data info for Principles
+# - IMG Style "roundrect","doubletriangle","rectbyrect","triangle","rect"
+
+- title                     : Purpose
+  intro                     : Our work comes from a clear sense of purpose and authenticity. The foundation of our work comes from working with the questions — Why are you here and why do you exist? Once we’ve established the answer to those questions we look at the reason the target audience should care.
+  image                     : roundrect
+
+- title                     : Innovation
+  intro                     : The exploration into purpose creates the foundation for an authentic end result that encapsulates the brand and what it stands for. This leads us to a design process where we create work with an authentic story that is driven by the value it creates.
+  image                     : doubletriangle
+
+- title                     : Collaboration
+  intro                     : The output of our work is defined by the explorative nature of collaboration. Independent on skill-set and function we work with our clients to get the to core of the challenge and establish a way forward that keeps our clients highly involved in the process. We believe that by building a tight relationship with our collaborators and clients we create better results.
+  image                     : rectbyrect
+
+- title                     : Exploration
+  intro                     : The nature of our collaborative process opens up the opportunity to explore alternate solutions that surprises the consumer — creating a stronger sense of attachment to the end result. We give ourselves time to explore and identify the path forward that we believe will make consumers look twice.
+  image                     : triangle
+
+- title                     : Timeless
+  intro                     : We always strive for our work to be timeless, we reach that by making sure every details exists for a reason through craft and thought. The result of our efforts embodies a level of aesthetic quality that at its foundation feels honest and surprising in the eyes of the beholder.
+  image                     : rect
