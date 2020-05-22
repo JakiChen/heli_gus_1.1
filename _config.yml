@@ -47,7 +47,3 @@ corporate:
 #    profile                 : false
 #    ignore:
 #    envs                    : [local]
-
-# Build settings
-markdown                     : kramdown
-source                       : src
