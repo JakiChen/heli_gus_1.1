@@ -11,8 +11,21 @@
 <title>{{ site.blog.title }}</title>
 
 <!-- Meta description and keywords -->
-<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.blog.description }}{% endif %}">
+<meta name="description" 
+      content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.blog.description }}{% endif %}">
 <meta name="keywords" content="{{ site.blog.keywords  }}" />
+
+<!-- Apple touch icon (for more: http://mathiasbynens.be/notes/touch-icons) -->
+<link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon.png">
+<!-- Android touch icon -->
+<link rel="manifest" href="assets/images/icons/site.webmanifest.txt">
+<!-- Safari, Chrome, Firefox, Opera, IE(favicon.ico) -->
+<link rel="icon" href="assets/images/icons/favicon-v=2.png">
+<link rel="shortcut icon" href="assets/images/icons/favicon.ico"> 
+<!-- Windows touch icon -->
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="">
+<meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
 
 <!-- for Facebook -->
 <meta property="og:title" content="{{ site.blog.title }}">
@@ -25,11 +38,9 @@
 <!-- for Twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="{{ site.blog.twitter }}">
-
 <meta name="twitter:title" content="{{ site.blog.title }}" />
 <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.blog.description }}{% endif %}" />
 <meta name="twitter:image" content="{{site.url}}/images/social.png" />
 
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="css/main.css">
-<!--<link rel="stylesheet" type="text/css" href="assets/css/lists.css">-->

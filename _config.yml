@@ -4,7 +4,7 @@ url                         : ""
 
 blog:
     name                    : Gusta
-    title                   : Gusta - Design, Strategy & Communication
+    title                   : GUSTA | Design, Strategy & Communication
     description             : We are the Design Director duo of internationally recognized and awarded designers Sebastian Gram &amp; Mathias Høst Normark.
     keywords                : visual identity, art direction, design, digital design, typography, digital products, digital experiences, creative direction
     twitter                 : "@gusta"
@@ -37,6 +37,12 @@ corporate:
         intro               : Our approach to projects follow these 4 basic phases, each phase is carefully tailored to match the given project. At the heart of each phase lies a transparent, iterative and collaborative approach that sets the stage for a successful final output.
 
 
+# Office API
+collections:
+    projects:
+        project             : true
+
+collections_dir             : wp-content
 # HTML Compression
 # - http://jch.penibelst.de/
 #compress_html:
